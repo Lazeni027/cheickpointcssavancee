@@ -1,0 +1,588 @@
+body{
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    font-weight:400;
+    color:#747474;
+    line-height: 1.0;
+    font-weight: 550;
+
+}
+
+
+
+/* partie header */
+
+header{
+    display: flex;
+    margin: auto;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 400px;
+    background-color:hsla(0,0%,100%,.98);;
+    position: fixed;
+    left: 0;
+    right: 0;
+    font-family: Roboto,Arial,sans-serif;
+    transition: box-shadow .25s ease 0s;
+    background-clip: border-box;
+    box-shadow: 0 -12px 10px 0 rgb(12, 12, 12);
+
+}
+
+header div nav a{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #747474;
+    font-weight: lighter;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+}
+header div nav{
+    gap: 60px;
+}
+
+.logo-principal img{
+    width: 280px;
+}
+
+a:hover {
+    color: rgb(78, 156, 78);
+}
+
+/* Partie header & nav dans departement */
+.barre-menu{
+    display: flex;
+}
+
+.menu ul li a:hover {
+    background-color: #c2bcbc;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;;
+}
+.menu ul {
+    list-style-type: none;
+    margin: auto;
+    padding-right: 40px;
+}
+
+.submenu a {
+    color: gray;
+    padding: 12px 16px;
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: rgb(128, 118, 118);
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+
+
+/* caractéristique generale h1, h2, h3, h4 Police et style */
+
+h1, h2, h3, h4 {
+    margin:1em 0;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight:300;
+    letter-spacing: 3px;
+ }
+
+ /* Partie bloc-a section1 */
+
+ .bloc-a{
+    display: flexbox;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h3{
+    color: #00bfa5;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.logo-second img{
+    width: 40px;
+    margin-top: 140px;
+}
+
+/* para designe le paragraphe de texte */
+#para {
+    display: flex;
+    text-align: left;
+    padding-left: 210px;
+    padding-right: 220px;
+    padding-bottom: 50px;
+    width: 920px;
+    line-height: 2em;
+    font-size: 17px;
+    gap: 20px;
+    margin: auto;
+   
+}
+#para a{
+    text-decoration: none;
+    color: #3d83df;
+}
+
+/* partie presentant les contenues en blocs de couleurs */
+.bloc-b{
+    display: flex;
+    padding: 10px;
+    margin: 10px 140px;
+    font-size: 20px;
+    color: white;
+    gap: 20px;
+   
+}
+.bloc-b h3{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.bloc-b p{
+    width: 220px;
+    line-height: 1.3;
+    font-size: 25px;
+
+}
+
+#vert{
+    background: #00bfa5 ;
+    padding: 0 30px;
+    padding-top: 20px;
+    border-radius: 15px;
+    width: 260px;
+    
+}
+
+#bleu{
+    background: #3d83df;
+    padding: 0 30px;
+    padding-top: 20px;
+    border-radius: 15px;
+    width: 260px;
+}
+
+#black{
+    background: black;
+    padding: 0 30px;
+    padding-top: 20px;
+    border-radius: 15px;
+    width: 260px;
+}
+
+#btn-option{
+    display: flex;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+#btn-option option{
+    color: black;
+    
+}
+.test4{
+    font-size: 17px;
+    margin-top: 80px;
+}
+.test5{
+    font-size: 17px;
+    margin-bottom: 20px;
+   
+}
+
+.tag img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/* partie apres les trois blocs de couleurs, contenus de logo avec lien dirrigeant vers autre page */
+.bloc-c{
+    margin: auto;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    
+}
+
+#btn3{
+    margin: auto;
+    margin-bottom: 10px;
+ }
+
+#para-logogroup h3{
+    font-size: 25px;
+    line-height: 1.5em;
+    width: 250px;
+    padding-left: 25px;
+
+}
+
+.logo-group {
+  
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 950px;
+    margin-left: 150px;
+    
+}
+
+.logo-group li {
+    width: 150px;
+    padding:  5px 5px;
+    max-width: 300px;
+    
+    }
+
+.logo-group li img {
+    display: flex;
+    margin: auto;
+    height: 22px;
+    max-width: 100px;
+    min-width: 100px;
+ 
+    
+    
+
+}
+
+/* section apres la section des logos, aticles en blocs, de quatre avec un bagdround vert */
+
+.bloc-d{
+    background-color: #d8f7f5;
+    display: flex;
+}
+.bloc-d h4{
+    color: #00bfa5 ;
+}
+
+.sous-articl{ 
+    justify-content: center;
+    grid-template-columns: repeat(2, 2fr);
+    display: grid;
+    gap: 20px;
+    margin: 60px 100px;
+}
+.articls{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    max-width: 200px;
+    min-height: 200px;
+   
+}
+.articls:nth-child(2),
+.articls:nth-child(4){
+    transform: translateY(-40px);
+}
+
+.articls h4 {
+    font-size: 20px;
+}
+.articls p{
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.articls img { 
+    width: 30px;
+}
+
+.articl-principal{
+    margin: 0;
+    padding: O;
+    text-align: center;
+}
+
+.articl-principal img{
+    width: 100%;
+}
+#articl-prin-para{
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 400px;
+    text-align: left;
+    line-height: 1.3;
+
+
+}
+#articl-prin-para P{
+    font-size: 14px;
+}
+
+#para-logogroup{
+    font-family: sans-serif;
+    width: 250px;
+}
+
+/* partie avant les images touristique */
+.bloc-e{
+    margin: auto;
+    padding: 10px;
+    padding-top: 20px;
+     text-align: center;
+     line-height: 6mm;
+     width: 480px;
+     font-size: 16px;
+}
+#a-bloc-e{
+    color: #00bfa5;
+    font-size: 25px;
+}
+
+#h3-bloc-e{
+    color: #00bfa5;
+    font-size: 25px;
+}
+.test3{
+    margin-top: 80px;
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+  
+}
+  /* section presentant les images tourisqtique des pays */
+  /* f-t designe l'ensemble de contenus des images sauf les deux dernier */
+.bloc-f-t{
+    display: flex;
+    margin: 30px;
+    padding: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+
+   
+}
+.tourisme{
+    max-width: 350px;
+}
+.tourisme img{
+    max-width: 350px;
+    max-height: 270px;
+}
+
+.info-pays{
+    display: flex;
+    gap: 110px;
+   
+}
+
+.info-pays a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+
+/* f-u designe les deux dernieres images touristique */
+.bloc-f-u{
+    display: flex;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    justify-content: first flex-start;
+    gap: 30px;
+ }
+
+.bloc-f-u img{
+    max-width: 310px;
+    min-width: 310px;
+    max-height: 230px;
+    min-height: 100px;
+    
+}
+button{
+    font-size: 11px;
+    color: white;
+    padding: 6px;
+    background: #3d83df;
+    border-radius: 5px;
+    border-color: #3d83df;
+   
+}
+
+
+.bloc-g{
+    text-align: center;
+   
+}
+
+.p-question{
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.646);
+    font-size: 27px;
+    font-weight: lighter;
+
+}
+
+.btn-interres{
+    color: white;
+    background: #3d83df;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-color: #3d83df;
+    font-size: 14px;
+}
+
+footer{
+    padding: 0 10px;
+    margin-top: 80px;
+    font-size: 12px;
+    text-align: center;
+    left: 0;
+    right: 0;
+   
+}
+footer a{
+    text-decoration: none;
+    color: rgba(1, 30, 159, 0.573);
+    
+}
+
+
+
+/* Rendre le header responsive */
+@media (max-width: 1024px) {
+    header {
+        gap: 50px; /* Réduction de l'espace */
+    }
+    .logo-principal img {
+        width: 200px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .bloc-a{
+        margin: 20px;
+    }
+
+    .corps{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+    .bloc-d{
+        display: contents;
+    }
+    .bloc-d-a{
+        display: grid;
+        max-width: 5%;
+        min-width: 3%;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    header div nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+/* Ajustement des sections */
+@media (max-width: 768px) {
+    #para {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .bloc-b {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .bloc-c {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-group {
+        justify-content: center;
+        margin-left: 0;
+        width: 100%;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .test2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 18px;
+
+        
+    }
+}
+
+/* Ajustement des blocs */
+@media (max-width: 480px) {
+    .bloc-f-t {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tourisme img {
+        max-width: 100%;
+    }
+
+    .test2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 18px;
+
+        
+    }
+
+    .test2 img {
+        max-width: 100%;
+    }
+    .test2 {
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+}
+
